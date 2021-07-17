@@ -12,7 +12,7 @@ class YaUploader:
         }
 
     def upload(self):
-        ya_token = 'AQAAAAAhfyo1AADLWzUyUiTEF0HihgSynJmZo1c'
+        ya_token = ''
         get_link_to_upload = 'https://cloud-api.yandex.net/v1/disk/resources/upload'
         params = {'path': 'test/testfile.txt', 'overwrite': 'true'}
 
